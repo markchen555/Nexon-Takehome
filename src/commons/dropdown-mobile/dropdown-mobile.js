@@ -21,9 +21,9 @@ class dropdownMobile extends Component {
         <div className="dropdown-section">
           <select id="selectBox" className="dropdown" onChange={() => this.onDropdown()}>
             <option className="dropdown-content" value="none" defaultValue >{t("Language")}</option>
-            <option className="dropdown-content" value="en">EN</option>
-            <option className="dropdown-content" value="tw">TW</option>
-            <option className="dropdown-content" value="kr">KR</option>
+            <option className="dropdown-content" value="en">English</option>
+            <option className="dropdown-content" value="tw">繁體中文</option>
+            <option className="dropdown-content" value="kr">한국어</option>
           </select>
         </div>
       </div>

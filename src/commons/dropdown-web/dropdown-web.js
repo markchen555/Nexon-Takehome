@@ -30,10 +30,10 @@ class dropdownWeb extends Component {
         <button onClick={() => this.onDropdown()} className="dropbtn">{t("Language")}
           <i className="fa fa-caret-down arrow"></i>
         </button>
-        <div className="dropdown-web-content">
-          <a className="dropdown-web-option" href="javascript:void(0)" onClick={() => changeLanguage("en")}><i className="fa fa-flag flag"></i>EN</a>
-          <a className="dropdown-web-option" href="javascript:void(0)" onClick={() => changeLanguage("tw")}><i className="fa fa-flag flag"></i>TW</a>
-          <a className="dropdown-web-option" href="javascript:void(0)" onClick={() => changeLanguage("kr")}><i className="fa fa-flag flag"></i>KR</a>
+        <div id="web-content" className="dropdown-web-content">
+          <a className="dropdown-web-option" href="javascript:void(0)" onClick={() => changeLanguage("en")}><i className="fa fa-flag flag"></i>English</a>
+          <a className="dropdown-web-option" href="javascript:void(0)" onClick={() => changeLanguage("tw")}><i className="fa fa-flag flag"></i>繁體中文</a>
+          <a className="dropdown-web-option" href="javascript:void(0)" onClick={() => changeLanguage("kr")}><i className="fa fa-flag flag"></i>한국어</a>
         </div>
       </div> 
     );

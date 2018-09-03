@@ -47,7 +47,7 @@ li a {
   float: right;
   text-align: center;
   margin-top: 6px;
-  min-width: 120px;
+  min-width: 140px;
   border-radius: 5px;
   background-image: linear-gradient(#3a3e41, #35363a);
 }
