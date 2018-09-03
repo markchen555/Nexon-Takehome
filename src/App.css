@@ -1,3 +1,11 @@
+.App {
+  max-width: 1600px;
+  margin: 0 auto;
+  -webkit-box-shadow: 0 0 35px rgba(188, 190, 202, 0.32);
+  -moz-box-shadow: 0 0 35px rgba(188, 190, 202, 0.32);
+  box-shadow: 0 0 35px rgba(188, 190, 202, 0.32);
+}
+
 .row {
   display: flex;
 }

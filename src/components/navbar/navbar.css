@@ -20,7 +20,8 @@ li a {
 }
 
 .navbar {
-  min-height: 50px;
+  height: 50px;
+  max-height: 50px;
   background-color: #777474;
 }
 

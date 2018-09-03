@@ -1,6 +1,7 @@
 .footer {
   padding: 25px 36px 15px 36px;
-  min-height: calc(30vh - 50px);
+  height: calc(30vh - 130px);
+  max-height: calc(30vh - 130px);
   background-color: #231f20;
 }
 
