@@ -1,0 +1,85 @@
+
+.dropdown-web-container {
+  overflow: hidden;
+}
+
+.dropdown-web-content.active {
+  display: block;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.dropdown-web-container .dropbtn {
+  font-size: 16px;    
+  border: none;
+  outline: none;
+  color: #fff;
+  padding: 10px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.dropdown-web-content {
+  display: none;
+  position: absolute;
+  margin: 5px 40px;
+  right: 0;
+  border-radius: 5px;
+  background-color: #2e3136;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-web-content a {
+  float: none;
+  color: #fff;
+  padding: 10px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.dropdown-web-option {
+  margin: 0px 10px;
+  border-bottom: 1px solid #3C3C3C;
+}
+
+.dropdown-web-option:last-child {
+  margin: 0px 10px;
+  border-bottom: 0px solid #3C3C3C;
+}
+
+.arrow {
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  padding-left: 8px;
+}
+
+.flag {
+  padding-right: 18px;
+}
+
+@media screen and (max-width: 650px) {
+  .dropdown-web-content {
+    margin: 5px 10px;
+  }
+}

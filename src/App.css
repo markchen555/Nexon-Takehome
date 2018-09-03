@@ -1,0 +1,28 @@
+.row {
+  display: flex;
+}
+
+.col-2 {
+  width: 16.66666667%; 
+}
+
+.col-4 {
+  width: 33.33333333%; 
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+@media screen and (max-width: 650px) {
+  .row {
+    display: block;
+  }
+  .col-6 {
+    width: 100%;
+  }
+}

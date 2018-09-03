@@ -1,0 +1,31 @@
+.info-logo {
+  height: 100px;
+}
+
+.info-container {
+  background-image: url("../../assets/maplestory.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 20px;
+  min-height: 60vh;
+  color: white;
+}
+
+.info-section {
+  box-sizing: border-box;
+  padding: 0px 20px 0px 20px;
+}
+
+.info-intro {
+  font-size: 18px;
+}
+
+@media screen and (max-width: 650px) {
+  .info-logo {
+    height: 60px;
+  }
+  .info-intro {
+  font-size: 16px;
+  }
+}
